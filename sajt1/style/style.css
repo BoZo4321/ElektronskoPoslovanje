@@ -1,0 +1,419 @@
+/* https://fonts.google.com/  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto&display=swap');
+
+/*-------------
+# General
+---------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, p{
+    cursor:default;
+}
+
+/*-------------
+# Menu
+---------------*/
+
+nav {
+    background-color: #fff;
+    width: 100%;
+    border-bottom:1px solid #b5b5b5;
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo img{
+    height: 90px;
+    width: auto;
+    position: relative;
+    z-index: 9999;
+}
+
+.menu ul {
+    display: inline-flex;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 8px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu .active{
+    color:#dc3f02;
+}
+
+.menu ul li a:hover {
+    color:#dc3f02;
+    border-radius: 8px;
+} 
+
+/*-------------
+# Footer
+---------------*/
+
+.footer{
+    background-color: #000;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:30px;
+}
+
+.istorijat{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.istorijat p{
+    text-align: left;
+}
+
+.repertoar{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.mini-menu{
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.footer h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.repertoar h3, .mini-menu h3{
+    text-align: center;
+    margin-left: 0;
+}
+
+.footer p{
+    margin-left: 40px;
+}
+
+.repertoar ul, .mini-menu ul{
+    list-style-type: none;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+.repertoar li, .mini-menu li{
+    flex-grow: 0;
+    flex-basis: 100%;
+    display: flex;
+}
+
+.repertoar a, .mini-menu a{
+    color:#fff;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+ .repertoar a:hover, .mini-menu a:hover{
+    color:#dc3f02;
+}
+
+/*-------------
+# Pocetna
+---------------*/
+
+.cover {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/cover1.jpg');
+    height: calc(100vh - 74px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#fff;
+    background-color: #000;
+    padding:5px 30px;
+}
+
+.buttons{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content button {
+    height: 100px;
+    width: 180px;
+    border-radius: 7px;
+    border: none;
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(7,5,8);
+    color: white;
+}
+
+.content button a {
+    text-decoration: none;
+    color: white;
+}
+
+.content button:hover {
+    border: 2px solid #dc3f02;
+}
+
+/*-------------
+# Repertoar
+---------------*/
+.repertoar{
+    display: flex;
+    flex-direction: column;
+}
+
+.repertoar h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#fff;
+    background-color: #000;
+    padding:5px 0px;
+    width: 20%;
+    margin:auto;
+    margin-top:30px;
+}
+
+.red{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 200px;
+}
+
+.red h4{
+    text-align: center;
+    color:#dc3f02;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.red h5,.red p{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.film{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.film img{
+    width: 300px;
+}
+
+/*-------------
+# Istorijat
+---------------*/
+
+.istorijat-container{
+    width: 100%;
+    padding: 50px 40px;
+    display: flex;
+}
+
+.istorijat-text{
+    flex-grow: 3;
+    padding: 10px 35px;
+}
+
+.istorijat-text h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#fff;
+    background-color: #000;
+    padding:5px 30px;
+}
+
+.istorijat-text p{
+    margin-bottom: 20px;
+}
+
+.istorijat-image {
+    flex-grow: 1;
+}
+
+.istorijat-image img{
+   width:700px;
+   height: auto;
+}
+
+.istorijat-image1{
+    flex-grow: 4;
+}
+
+.istorijat-image1 img{
+    width:800px;
+   height: auto;
+}
+
+.istorijat-text1{
+    flex-grow: 1;
+    padding: 10px 35px;
+}
+
+
+/*-------------
+# Kontakt
+---------------*/
+
+.kontakt-forma {
+    max-width: 700px;
+    margin: auto;
+    padding: 50px;
+    background: rgb(255, 255, 255, 0.5);
+  }
+  
+.kontakt-forma h1{
+    color:#fff;
+    background-color: #000;
+    padding:5px 30px;
+    margin-bottom: 20px;
+}
+
+  .kontakt-forma h1, .kontakt-forma p {
+    text-align: center;
+  }
+  
+  .kontakt-forma input{
+    width: 100%;
+    height: 35px;
+    margin:10px 0;
+  }
+
+  .kontakt-forma textarea{
+    width: 100%;
+    height: 85px;
+    margin:10px 0;
+  }
+
+  #dugme{
+    background-color: #dc3f02;
+    border-radius: 5px;
+    color:#fff;
+    cursor: pointer;
+    width: 100%;   
+    height: 35px; 
+  }
+
+  /*-------------
+# Hamburger menu
+---------------*/
+
+.hamburger{
+    margin:0 40px 0 0;
+    font-size: 26px;
+    line-height: 65px;
+    display:none;
+}
+
+#toggle{
+    display: none;
+}
+
+@media only screen and (max-width: 750px){
+    .hamburger{
+        display: block;
+        cursor:pointer;
+    }
+
+    .menu{
+        display: none !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu ul{
+        display: contents;
+    }
+
+    .menu li{
+        margin:10px 0;
+    }
+
+    #toggle:checked + .menu{
+        display: flex !important;
+        position: absolute;
+        width: 100%;
+        background-color: #fff;
+        top:64px;
+        left:0;
+    }
+}
+@media only screen and (max-width: 1342px){
+
+    .film img{
+    width: 250px;
+    }
+
+}
+
+@media only screen and (max-width: 1222px){
+    .film img{
+    width: 200px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .repertoar .red{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1030px){
+    .istorijat-image img, .istorijat-image1 img{
+        width: 400px;  
+        }      
+}
+@media only screen and (max-width: 850px){
+    .istorijat-container{
+        flex-direction: column;
+    }    
+    .istorijat-image img, .istorijat-image1 img{
+       width: 100%;
+    }  
+}
