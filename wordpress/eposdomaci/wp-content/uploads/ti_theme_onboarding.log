@@ -1,0 +1,18 @@
+[14/Jan/2023:17:57:29] (I): WordPress Instance Info:
+[14/Jan/2023:17:57:29] (I): Home URL : http://localhost/eposdomaci
+[14/Jan/2023:17:57:29] (I): Site URL : http://localhost/eposdomaci
+[14/Jan/2023:17:57:29] (I): WordPress Version : 6.1.1
+[14/Jan/2023:17:57:29] (I): Onboarding Version : 1.1.30
+[14/Jan/2023:17:57:29] (I): Multisite : No
+[14/Jan/2023:17:57:29] (I): Server Info : Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/8.1.12
+[14/Jan/2023:17:57:29] (I): PHP Version : 8.1.12
+[14/Jan/2023:17:57:29] (I): HTTPS : No
+[14/Jan/2023:17:57:29] (I): PHP Max Execution Time : 120
+[14/Jan/2023:17:57:29] (I): PHP Max Input Vars : 1000
+[14/Jan/2023:17:57:29] (I): Max Upload Size : 41943040
+[14/Jan/2023:17:57:29] (I): Plugins:
+[14/Jan/2023:17:57:29] (I): [PLUGIN] Otter – Page Builder Blocks &amp; Extensions for Gutenberg : v2.2.0 (ThemeIsle)
+[14/Jan/2023:17:57:29] (I): [PLUGIN] Templates Patterns Collection : v1.1.30 (ThemeIsle)
+[14/Jan/2023:17:57:29] (P): Installing optimole-wp.
+[14/Jan/2023:17:57:35] (P): Activating optimole-wp.
+[14/Jan/2023:17:57:35] (S): Installed and activated plugins.
